@@ -200,4 +200,4 @@ REST_AUTH_SERIALIZERS = {
 #   api_secret = "mLW26pvgcavmQ2QL4vIXu5SoArA" 
 # )
 
-django_heroku.settings((locals))
+django_heroku.settings(locals())
