@@ -1,5 +1,5 @@
 from pathlib import Path, os
-
+import django_heroku
 # cloudinary causing error in deploy,no module named cloudinary found
 # import cloudinary
 # import cloudinary.uploader
@@ -199,3 +199,5 @@ REST_AUTH_SERIALIZERS = {
 #   api_key = "174942168477134", 
 #   api_secret = "mLW26pvgcavmQ2QL4vIXu5SoArA" 
 # )
+
+django_heroku.settings((locals))
