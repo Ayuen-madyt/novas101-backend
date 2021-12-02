@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+pillow = "*"
+dj-rest-auth = "*"
+django-allauth = "*"
+django-cors-headers = "*"
+psycopg2-binary = "*"
+django-ckeditor = "*"
+django-suit = {file = "https://github.com/darklow/django-suit/tarball/v2"}
+django-tinymce = "*"
+django-crispy-forms = "*"
+gunicorn = "*"
+dj-database-url = "*"
+django-heroku = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
