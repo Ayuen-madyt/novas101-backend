@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-xqi%1znt&nl$k8vp)*_34fk)q54j@zlq&ijkq)dt^$lqsrzy=!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['novas101-frontend.herokuapp.com','novas101api.herokuapp.com','.localhost', '127.0.0.1', '[::1]']
+ALLOWED_HOSTS = ['novas101-frontend.herokuapp.com','novas101.herokuapp.com','.localhost', '127.0.0.1', '[::1]']
 
 
 # Application definition
