@@ -1,9 +1,9 @@
 from pathlib import Path, os
 import django_heroku
 # cloudinary causing error in deploy,no module named cloudinary found
-# import cloudinary
-# import cloudinary.uploader
-# import cloudinary.api
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 
 
@@ -197,10 +197,10 @@ REST_AUTH_SERIALIZERS = {
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # cloudinary settings
-# cloudinary.config( 
-#   cloud_name = "delb9kvqi", 
-#   api_key = "174942168477134", 
-#   api_secret = "mLW26pvgcavmQ2QL4vIXu5SoArA" 
-# )
+cloudinary.config( 
+  cloud_name = "delb9kvqi", 
+  api_key = "174942168477134", 
+  api_secret = "mLW26pvgcavmQ2QL4vIXu5SoArA" 
+)
 
 django_heroku.settings(locals())

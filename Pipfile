@@ -18,6 +18,7 @@ django-crispy-forms = "*"
 gunicorn = "*"
 dj-database-url = "*"
 django-heroku = "*"
+cloudinary = "*"
 
 [dev-packages]
 
